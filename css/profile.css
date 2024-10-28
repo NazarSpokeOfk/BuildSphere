@@ -1,0 +1,144 @@
+*{
+    font-family: "Inter",sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 1880px;
+}
+
+
+.header{
+    display: block;
+    background-color: black;
+    max-height: 90px;
+}
+
+.header__logo{
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "Inter",sans-serif;
+    span{
+        color: #A0A8FF;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    a{
+        text-decoration: none; 
+        color: inherit
+    }
+}
+
+.header__icons{
+    padding-top: 10px;
+    display: flex;
+    position: absolute;
+    top:10px;
+    right: 20px;
+
+}
+
+.icon__house{
+    width: 54px;
+    height: 54px;
+}
+
+.icon__profile{
+    width: 50px;
+    height: 50px;
+}
+
+.subheader{
+    margin-top: 80px;
+    background: url('../img/highest-mountains-of-the-world-on-each-continent.webp');
+    display: block;
+    height: 256px;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.username{
+    font-size: 96px;
+    font-weight: 700;
+    margin-left: 70px;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    gap: 220px;
+    margin-bottom: 100px;
+}
+
+.history{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 64px;
+}
+
+.hist__icon{
+    margin-top: 70px;
+    margin-left: 65px;
+}
+
+.settings{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 64px;
+}
+
+.sett__icon{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.leave{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 64px;
+}
+
+.lev__icon{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.footer{
+    border: 1px solid black;
+    display: block;
+    width: 1900px;
+    height: 60px;
+}
+
+.footer__logo{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.terms__of__use{
+  font-weight: 200;
+  font-size: 32px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+

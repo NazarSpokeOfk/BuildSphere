@@ -1,0 +1,406 @@
+*{
+    font-family: "Inter",sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 1880px;
+}
+
+.icon__house{
+    width: 54px;
+    height: 54px;
+}
+
+.icon__profile{
+    width: 50px;
+    height: 50px;
+}
+
+.header{
+    display: block;
+    background-color: black;
+    max-height: 90px;
+}
+
+.header__logo{
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "Inter",sans-serif;
+    span{
+        color: #A0A8FF;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    a{
+        text-decoration: none; 
+        color: inherit
+    }
+}
+
+.header__icons{
+    padding-top: 10px;
+    display: flex;
+    position: absolute;
+    top:10px;
+    right: 20px;
+}
+
+
+.subheader{
+    display: block;
+    height: 407px;
+    padding: 0px;
+    background: url(../img/image.jpg);
+}
+
+.mansion{
+    display: block;
+    height: 407px;
+    padding: 0px;
+    background: url(../img/image\ \(1\).jpg);
+}
+
+
+
+.section__name{
+    display: block;
+    padding: 270px 0 0 40px;
+    margin-top: 0px;
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+    font-family: "Inter",sans-serif;
+}
+
+.box__inner{
+    width: 800px;
+    height: 200px;
+    border:1px solid black;
+}
+
+.inner__text{
+    max-width: 390px;
+    max-height: 160px;
+}
+
+.slider__box{
+   margin-left: 550px; 
+   margin-bottom: 70px;
+}
+
+.Catalog__name{
+    margin-left: 50px;
+    font-weight: 700px;
+    font-size: 90px;
+}
+
+.slider__img{
+    height: 200px;
+}
+.box__inner{
+    display: flex;
+    align-items:center;
+}
+
+.inner__text{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+.inner__btn{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    left: 920px;
+    background-color: #A0A8FF;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.prev__arrow{
+    position:absolute;
+    top:830px;
+    margin-left: -200px;
+    margin-bottom: 200px;
+}
+
+.next__arrow{
+    position:absolute;
+    top:415px;
+    margin-left: 450px;
+}
+
+.mans__next__arrow{
+    position: absolute;
+    margin-left: 900px;
+    bottom:-900px
+}
+
+.mans__prev__arrow{
+    position:absolute; 
+    margin-left: -200px;
+    bottom:-900px
+}
+
+.mansion__btn{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    left: 920px;
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.houses__name{
+    font-size: 70px;
+    margin-left: 60px;
+}
+
+.choosed__houses{
+    margin: 0 auto;
+    width: 1300px;
+    height: 624px;
+    border:1px solid black;
+}
+
+.choosed__name{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 15px;
+    margin-left: 50px;
+}
+
+.info__materials{
+    margin: 30px;
+    margin-left: 30px;
+    font-size: 48px;
+    font-weight: 500;
+}
+.main__timeline{
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.time{
+    
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.main__price{
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.price{
+    font-size: 48px;
+    font-weight: 50;
+    span{
+        font-weight: 100;
+        font-size: 36px;
+    }
+}
+
+.choosed__information{
+    position: absolute;
+    margin-left: 700px;
+    bottom: -40px;
+}
+
+.materials{
+    width: 600px;
+    margin-right: 110px;
+    margin-bottom: 10px;
+}
+
+.choosed__img{
+  width: 700px; 
+  height: 624px; 
+}
+
+.Price{
+    margin-top: 0;
+    margin-left: 35px;
+    margin-bottom: 110px;
+}
+
+.main__price{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.timeline{
+    margin-left: 35px;
+}
+
+.footer{
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+.footer__logo{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.terms__of__use{
+  font-weight: 200;
+  font-size: 32px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.footer__houses {
+    margin-top: 40px;
+    border: 1px solid black;
+    display: block;
+    width: 1900px;
+    height: 60px;
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        font-size: 30px;
+        padding-left: 20px;
+        span{
+            font-size: 30px; 
+        }
+    }
+    .icon__house, .icon__profile {
+        width: 40px;
+        height: 40px;
+    }
+    .section__name {
+        padding-top: 350px;
+        padding-left: 10px;
+        font-size: 30px;
+    }
+    .slider__box {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .inner__text {
+       display: none;
+    }
+    .inner__btn, .mansion__btn {
+        width: 100%;
+        margin: 15px 0;
+        left: 0;
+    }
+
+    .Catalog__name{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .footer{
+        width: 100%;
+        height: 60px;
+    }
+    .box__inner{
+        width:250px;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .slider__img{
+        width:250px;
+        height: 250px;
+    }
+
+    .inner__btn{
+        width: 190px;
+        margin-left: 60px;
+        margin-top: 200px;
+    }
+
+    .next__arrow{
+        margin-left: 120px;
+        top: 415px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .mansion__btn{
+        width: 190px;
+        margin-left: 60px;
+        margin-top: 200px;
+        color: black;
+        background: white;
+    }
+    .slider__box{
+        width: 250px;
+        height: 250px;
+    }
+    .terms__of__use{
+    display: none;
+    }
+    .container{
+        width: 100%;
+    }
+
+    .mans__next__arrow{
+        margin-left: 240px;
+        top: 1640px;
+        width: 50px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .prev__arrow {
+        margin-left: 20px; /* Adjust this as needed to bring it into view */
+        top: 830px; /* Adjust to align with the next arrow */
+        width: 50px;
+        height: 50px;
+        display: block;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .mans__prev__arrow{
+        margin-left: 20px; /* Adjust this as needed to bring it into view */
+        top: 1640px; /* Adjust to align with the next arrow */
+        width: 50px;
+        height: 50px;
+        display: block;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
