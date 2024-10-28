@@ -9,7 +9,8 @@
 <br>
 This website is built with pure HTML and CSS.
 On this website you can buy a house. 
-This website will receive an update soon.
+This website will receive an update and adaptation soon.
+This website is also for 1920x1080.
 
 ### Instructions:
 <br>
