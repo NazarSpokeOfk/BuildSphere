@@ -33,30 +33,40 @@
             </h2>
         </div>
     </section>
-
     <section class="slider">
         <div class="container">
             <h2 class="Catalog__name">Catalog</h2>
-            <div class="slider__box">
-                <div class="box__inner">
-                    <img src="./img/image 4.jpg" alt="" class="slider__img">
+            <!-- Обертка для всех слайдов -->
+            <div class="slider__box active">
+                <!-- Первый слайд -->
+                <div class="box__inner ">
+                    <img src="./img/image 4.jpg" id="first__slide" alt="first slide" class="slider__img">
                     <p class="inner__text">
                         A hi-tech home integrates smart technology for automation, energy efficiency, and enhanced security and comfort
                     </p>
-                    <button class="inner__btn">
-                        Learn More
-                    </button>
+                    <button class="inner__btn"><a href="houses.html">Learn More</a></button>
                 </div>
-                <a href="#" class="next__arrow">
-                    <img class="next__arrow" src="./icons/image 2.png" alt="next__arrow">
-                </a>
-                <a href="#" class="prev__arrow">
-                    <img src="./icons/image 3.png" alt="prew__arrow">
-                </a>
+    
+                <!-- Второй слайд -->
+                <div class="box__inner active">
+                    <img src="./img/image-min.png" id="second__slide" alt="second slide" class="slider__img">
+                    <p class="inner__text">
+                        High-tech homes use smart devices with features such as automation and sensors for a variety of purposes and a lot of stuff stuff
+                    </p>
+                    <button class="inner__btn"><a href="houses.html">Learn More</a></button>
+                </div>
             </div>
+    
+            <!-- Кнопки навигации снаружи слайдов -->
+            <button class="prev__arrow">
+                <img src="./icons/image 3.png" alt="prev__arrow">
+            </button>
+            <button class="next__arrow">
+                <img src="./icons/image 2.png" alt="next__arrow">
+            </button>
         </div>
     </section>
-
+    
     <section class="mansion">
         <div class="container">
             <h2 class="section__name">
@@ -69,21 +79,26 @@
         <div class="container">
             <h2 class="Catalog__name">Catalog</h2>
             <div class="slider__box">
-                <div class="box__inner">
-                    <img src="./img/image (2).jpg" alt="" class="slider__img">
+                <div class="box__inner__mansion">
+                    <img src="./img/image (2).jpg" alt="mansion first slide" class="slider__img">
                     <p class="inner__text">
-                        A well-appointed single-family town house owned by a wealthy property owner
+                        A well-appointed single-family town house owned by a wealthy property owner and big family,including dogs,kids
                     </p>
-                    <button class="mansion__btn">
-                        Learn More
-                    </button>
+                    <button class="mansion__btn"><a href="houses.html">Learn More</a></button>
                 </div>
-                <a href="#" class="mans__next__arrow">
+                <div class="box__inner__mansion">
+                    <img src="./img/mansion-min.jpg"  alt="mansion second slide" class="mansion__slider__img">
+                    <p class="inner__text">
+                        Unlike a country villa, a mansion is designed for permanent habitation, and peaceful live.</p>
+                    <button class="mansion__btn"><a href="houses.html">Learn More</a></button>
+                </div>
+            </div>
+                <button  class="mans__next__arrow">
                     <img src="./icons/image 2.png" alt="next__arrow">
-                </a>
-                <a href="#" class="mans__prev__arrow">
+                </button>
+                <button  class="mans__prev__arrow">
                     <img src="./icons/image 3.png" alt="prew__arrow">
-                </a>
+                </button>
             </div>
         </div>
     </section>
@@ -96,5 +111,7 @@
             Terms of use
         </h3>
     </section>
+    <script src="./js/choosedHouse.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>

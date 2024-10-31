@@ -16,11 +16,19 @@ body, html {
 .icon__house{
     width: 54px;
     height: 54px;
+    transition: all 0.6s ease-in-out;
+}
+.icon__house:hover{
+    transform: scale(1.2);
 }
 
 .icon__profile{
     width: 50px;
     height: 50px;
+    transition: all 0.6s ease-in-out;
+}
+.icon__profile:hover{
+    transform: scale(1.2);
 }
 
 .header{
@@ -38,14 +46,22 @@ body, html {
     font-weight: 400;
     font-size: 40px;
     font-family: "Inter",sans-serif;
+    cursor: pointer;
     span{
-        color: #A0A8FF;
+        transition: all 0.6s ease;
+        color: white;
         font-weight: 400;
         font-size: 40px;
     }
     a{
         text-decoration: none; 
         color: inherit
+    }
+}
+
+.header__logo:hover{
+    span{
+        color:#A0A8FF;
     }
 }
 
@@ -98,6 +114,7 @@ body, html {
 .slider__box{
    margin-left: 550px; 
    margin-bottom: 70px;
+   
 }
 
 .Catalog__name{
@@ -108,6 +125,8 @@ body, html {
 
 .slider__img{
     height: 200px;
+    width: 266px;
+    transition: all 0.6s ease;
 }
 .box__inner{
     display: flex;
@@ -116,17 +135,15 @@ body, html {
 
 .inner__text{
     font-size: 20px;
-    margin-top: 0px;
-    margin-left: 20px;
-    padding-bottom: 30px;
+    margin-top: -180px;
+    margin-left: 319px;
 }
 
 .inner__btn{
     width: 200px;
     height: 40px;
     position: absolute;
-    margin-top: 150px;
-    margin-bottom: 15px;
+    margin-top: 5px;
     left: 920px;
     background-color: #A0A8FF;
     color: white;
@@ -134,48 +151,109 @@ body, html {
     font-weight: 600;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.inner__btn:hover{
+    a{
+    color:#A0A8FF;
+    }
+    background-color:white;
+    border: 1px solid #A0A8FF;
 }
 
-.prev__arrow{
-    position:absolute;
-    top:830px;
-    margin-left: -200px;
-    margin-bottom: 200px;
+.prev__arrow {
+    position: absolute;
+    left: 280px; /* сместите кнопку влево, чтобы она была ближе к левому краю */
+    top: 75%; /* центрирование по вертикали */
+    display: block; /* убедитесь, что кнопка отображается */
+    z-index: 10; /* убедитесь, что она поверх других элементов */
+    background: white;
+    border: none;
+    transition: transform 0.6s ease;
+}
+.prev__arrow:hover{
+    transform: scale(1.2);
 }
 
-.next__arrow{
-    position:absolute;
-    top:415px;
-    margin-left: 450px;
+.next__arrow {
+    position: absolute;
+    right: 280px; /* сместите кнопку вправо, чтобы она была ближе к правому краю */
+    top: 75%;
+    display: block;
+    z-index: 10;
+    background: white;
+    border: none;
+    transition: transform 0.6s ease;
 }
+.next__arrow:hover{
+    transform: scale(1.2);
+}
+
 
 .mans__next__arrow{
     position: absolute;
-    margin-left: 900px;
-    bottom:-900px
+    margin-left: 1550px;
+    bottom:-760px;
+    background:white;
+    border:none;
+    transition: transform 0.6s ease;
+}
+.mans__next__arrow:hover{
+    transform: scale(1.2);
 }
 
 .mans__prev__arrow{
     position:absolute; 
-    margin-left: -200px;
-    bottom:-900px
+    margin-left: 300px;
+    bottom:-760px;
+    background:white;
+    border:none;
+    transition: transform 0.6s ease;
+}
+.mans__prev__arrow:hover{
+    transform: scale(1.2);
 }
 
 .mansion__btn{
     width: 200px;
     height: 40px;
     position: absolute;
-    margin-top: 150px;
-    margin-bottom: 15px;
     left: 920px;
+    bottom: -790px;
     background-color: #000000;
     color: white;
     font-size: 18px;
     font-weight: 600;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
-
+.mansion__btn:hover{
+    a{
+        color:black;
+    }
+    background-color:white;
+    border: 1px solid black;
+}
+.box__inner__mansion{
+    max-width: 800px;
+    min-height: 200px;
+    border:1px solid black
+}
+.mansion__slider__img{
+    max-width: 266px;
+    min-height: 200px;
+}
 .houses__name{
     font-size: 70px;
     margin-left: 60px;
@@ -193,12 +271,12 @@ body, html {
     font-size: 64px;
     font-weight: 600;
     position: absolute;
-    bottom: 15px;
+    bottom: 135px;
     margin-left: 50px;
 }
 
 .info__materials{
-    margin: 30px;
+    margin: 20px;
     margin-left: 30px;
     font-size: 48px;
     font-weight: 500;
@@ -208,6 +286,10 @@ body, html {
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+.time__price{
+    margin-bottom: 170px;
 }
 .time{
     
@@ -233,7 +315,8 @@ body, html {
 .choosed__information{
     position: absolute;
     margin-left: 700px;
-    bottom: -40px;
+    bottom: 60px;
+    max-width: 600px;
 }
 
 .materials{
@@ -244,13 +327,12 @@ body, html {
 
 .choosed__img{
   width: 700px; 
-  height: 624px; 
+  height: 624px;
+  filter: brightness(40%);
 }
 
 .Price{
-    margin-top: 0;
     margin-left: 35px;
-    margin-bottom: 110px;
 }
 
 .main__price{
@@ -267,6 +349,7 @@ body, html {
     display: block;
     width: 100%;
     height: 60px;
+    
 }
 
 .footer__logo{
@@ -282,17 +365,105 @@ body, html {
   font-size: 32px;
   text-align: center;
   margin-top: -40px;
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
 .footer__houses {
-    margin-top: 40px;
+    margin-top: 115px;
     border: 1px solid black;
     display: block;
-    width: 1900px;
+    width: 100%;
     height: 60px;
 }
 
+@media (max-width: 1440px){
+    .container{
+        max-width: 1440px;
+    }
+    .header__logo{
+        max-width: 1440px;
+    }
+    .section__name{
+        max-width: 1440px;
+    }
+    .slider__box
+    .Catalog__name{
+        max-width: 1440px;
+    }
+    .header{
+        width: 100%;
+    }
+
+    .header__icons{
+        right: 70px;
+    }
+
+    .prev__arrow{
+        top: 830px; 
+        margin-left: -100px;
+    }
+
+    .next__arrow{
+        top: 830px; 
+        margin-left: -100px; 
+    }
+
+    .box__inner{
+        max-width: 500px;
+        margin-left: -100px;
+    }
+
+    .inner__text{
+        font-size: 16px;
+        padding-bottom: 5px;
+        
+    }
+    .inner__btn{
+        max-width: 150px;
+        max-height: 30px;
+        margin-top: -25px;
+        left: 510px;
+    }
+    .mans__next__arrow{
+        top: 1750px;
+        left: -450px;
+    }
+    .mans__prev__arrow{
+        top: 1750px;
+        left: -100px;
+    }
+    .box__inner__mansion{
+        max-width: 500px;
+        margin-left: -100px;
+        .inner__text{
+
+            font-size: 16px;
+            padding-bottom: 5px;
+            padding-right: 10px;
+        }
+    }
+
+    .mansion__btn{
+        margin-bottom: -270px;
+        max-width: 150px;
+        max-height: 30px;
+        left: 510px;
+    }
+
+    .choosed__information{
+        bottom: -220px;
+    }
+    .choosed__name{
+        bottom: -130px;
+    }
+    
+}
+
 @media (max-width: 768px) {
+    .container{
+        width: 768px;
+    }
     .header__logo {
         font-size: 30px;
         padding-left: 20px;
